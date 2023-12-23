@@ -1,0 +1,41 @@
+/* styles/App.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to right, #4CAF50, #2196F3); /* Apply the same gradient */
+  }
+  
+  .app-header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .app-header h1 {
+    margin: 0;
+  }
+  
+  .app-body {
+    flex-grow: 1;
+    display: flex;
+    background-color: #fff;
+  }
+  
+  .dashboard {
+    width: 100%;
+  }
+  
+  /* Add responsive styles if needed */
+  @media (max-width: 768px) {
+    .app-body {
+      flex-direction: column;
+    }
+  }
+  

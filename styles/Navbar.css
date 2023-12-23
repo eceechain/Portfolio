@@ -1,0 +1,32 @@
+/* styles/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #FFD700;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #FFD700;
+  }
+  
+  .active {
+    color: #FFD700;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #FFD700;
+  }
+  
